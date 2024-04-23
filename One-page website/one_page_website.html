@@ -8,7 +8,8 @@
 		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
 		<link rel="manifest" href="./images/site.webmanifest">
-
+		<link rel="stylesheet" href="./css/shared.css">
+		<link rel="stylesheet" href="./css/animations.css">
 
 	</head>
 	
@@ -17,9 +18,9 @@
 
 		
 	<!--NAV-->
-		<div>
-			<div>
-				<ul>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
 					<a href="#Menu principal" id="link"><li>Menu principal</li></a>
 					<a href="#Servicios y productos"><li>Servicios y productos</li></a>
 					<a href="#Contacto"><li>Contacto</li></a>
@@ -30,8 +31,8 @@
 	
 	<!-- MENU PRINCIPAL-->
 		<div id="Menu principal">
-			<div>
-				<div>
+			<div class="container">
+				<div class="text-center">
 					<span>BIENVENIDOS | LUCY </span>
 				</div>
 				<video width="320" height="240" controls>
@@ -45,13 +46,13 @@
 	
 	<!--SERVICIOS Y PRODUCTOS-->
 	
-		<section>
-			<div id="Servicios y productos">
+		<section id ="Servicios y productos">
+			<div class="container">
 				<h1>Servicios y productos</h1>
-					<div>
+					<div class="flex-container">
 						<!--ILUSTRACIONES 1-->
-							<div>
-								<div>
+							<div class="photo-container">
+								<div class="photo">
 									<div>
 										<img src="./images/thumbs/thumb_1.jpg" alt="copiadora canon de alta velocidad">
 										<h3>Click para acercar</h3>
@@ -61,8 +62,8 @@
 							</div>
 						<!--FIN DE ILUSTRACIONES-->
 						<!--ILUSTRACIONES 2-->
-							<div>
-								<div>
+							<div class="photo-container">
+								<div class="photo">
 									<div>
 										<img src="./images/thumbs/thumb_2.jpg" alt="impresora a color">
 										<h3>Click para acercar</h3>
@@ -72,8 +73,8 @@
 							</div>
 						<!--FIN DE ILUSTRACIONES-->
 						<!--ILUSTRACIONES 3-->
-							<div>
-								<div>
+							<div class="photo-container">
+								<div class="photo">
 									<div>
 										<img src="./images/thumbs/thumb_3.jpg" alt="trabajo en laptop">
 										<h3>Click para acercar</h3>
@@ -82,9 +83,9 @@
 								</div>
 							</div>
 						<!--FIN DE ILUSTRACIONES-->
-						<!--ILUSTRACIONES-->
-							<div>
-								<div>
+						<!--ILUSTRACIONES 4-->
+							<div class="photo-container">
+								<div class="photo">
 									<div>
 										<img src="./images/thumbs/thumb_4.jpg" alt="Celular en mano con cargador">
 										<h3>Click para acercar</h3>
@@ -93,9 +94,9 @@
 								</div>
 							</div>
 						<!--FIN DE ILUSTRACIONES-->
-						<!--ILUSTRACIONES-->
-							<div>
-								<div>
+						<!--ILUSTRACIONES 5-->
+							<div class="photo-container">
+								<div class="photo">
 									<div>
 										<img src="./images/thumbs/thumb_5.jpg" alt="credencial con banda magnetica">
 										<h3>Click para acercar</h3>
@@ -104,9 +105,9 @@
 								</div>
 							</div>
 						<!--FIN DE ILUSTRACIONES-->
-						<!--ILUSTRACIONES-->
-							<div>
-								<div>
+						<!--ILUSTRACIONES 6-->
+							<div class="photo-container">
+								<div class="photo">
 									<div>
 										<img src="./images/thumbs/thumb_6.jpg" alt="lapicera con tijeras, exacto y plumas">
 										<h3>Click para acercar</h3>
@@ -115,9 +116,9 @@
 								</div>
 							</div>
 						<!--FIN DE ILUSTRACIONES-->
-						<!--ILUSTRACIONES-->
-							<div>
-								<div>
+						<!--ILUSTRACIONES 7-->
+							<div class="photo-container">
+								<div class="photo">
 									<div>
 										<img src="./images/thumbs/thumb_7.jpg" alt="cuaderno de arillo metalico">
 										<h3>Click para acercar</h3>
@@ -126,9 +127,9 @@
 								</div>
 							</div>
 						<!--FIN DE ILUSTRACIONES-->
-						<!--ILUSTRACIONES-->
-							<div>
-								<div>
+						<!--ILUSTRACIONES 8-->
+							<div class="photo-container">
+								<div class="photo">
 									<div>
 										<img src="./images/thumbs/thumb_8.jpg" alt="mochila con utiles escolares">
 										<h3>Click para acercar</h3>
@@ -137,9 +138,9 @@
 								</div>
 							</div>
 						<!--FIN DE ILUSTRACIONES-->
-						<!--ILUSTRACIONES-->
-							<div>
-								<div>
+						<!--ILUSTRACIONES 9-->
+							<div class="photo-container">
+								<div class="photo">
 									<div>
 										<img src="./images/thumbs/thumb_9.jpg" alt="regalo">
 										<h3>Click para acercar</h3>
@@ -155,15 +156,19 @@
 	
 	<!--FORMULARIO DE CONTACTO-->
 	
-	<section>
-		<div id="Contacto">
-			<div>
-				<h1> Contacto</h1>
-					<div>
-						<h2>Proporcione sus datos y reciba un descuento<span>
-						<br>en su lista de utiles escolares</h2>
-						<p>Proporcione su informacion</p>
-							<div>
+	<section id="Contacto">
+		<div class="container">
+			<div class="heading-padding">
+				<h1 class="heading-padding"> Contacto</h1>
+					<div class="reservation">
+						<h2>
+							<span> Proporcione sus datos y reciba un descuento</span>
+						<br/>en su lista de utiles escolares!
+						</h2>
+						<p class="rsvp-text">
+							Proporcione su informacion
+						</p>
+							<div class="form-rsvp">
 								<form action="" method="post">
 									<input class="rsvp" type="text" value="Nombre">
 									<input class="rsvp" type="text" value="Apellido">
@@ -171,7 +176,7 @@
 									<input class="rsvp" type="text" value="Telefono">
 										<div class="form spacer">
 										</div>
-										<div>
+										<div class="submit">
 											<input type="submit" value="Submit">
 										</div>
 								</form>
@@ -184,23 +189,10 @@
 	
 	<!--PIE DE PAGINA-->
 	
-		<div>
-			www.papelerialucy.com
+		<div id="footer">
+			www.papelerialucy.com &nbsp; | &nbsp; &copy; 2024
 		</div>
 		
 	<!--FIN DE PIE DE PAGINA-->
-</body>
-
-
-
-											
-									
-								
-						
-						
-										
-						
-		
-
-
+	</bod>
 </html>
