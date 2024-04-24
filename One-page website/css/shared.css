@@ -157,8 +157,8 @@ section{
 /*----------------------------------------------------------------------------------
 HOME SECTION STYLES
 ----------------------------------------------------------------------------------*/
-#home{
-    background-color: #8D8E8F;
+#Menu-principal{
+    background: url(../images/thumbs/depositphotos_320575076-stock-illustration-abstract-blue-background-dark-blue.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -223,7 +223,7 @@ ________________________________________________________________________________
 
 }
 
-#contact{
+#Contacto{
     background-color: #f5f3f3;
 }
 
@@ -437,7 +437,7 @@ MENU SECTION ANIMATION
     background-color: rgba(255,255,255,1);
     display: inline-block;
     margin: 0% auto;
-    position;
+    position: ;
     padding: 15px 4%;
     border: 1px solid #9D9FA2;
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
