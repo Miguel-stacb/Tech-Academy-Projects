@@ -2,7 +2,7 @@
 GENERIC STYLES
 ------------------------------------------------------------------------------------*/
 html {
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 62.5%;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-text-size-adjust: 100%;
@@ -180,7 +180,7 @@ HOME SECTION STYLES
     color: #fff;
     letter-spacing: 5pt;
     word-spacing: 21pt;
-    font-size: 4.5em;
+    font-size: 3em;
     text-align: left;
     font-family: impact, sans-serif;
     line-height: 2;
@@ -293,13 +293,13 @@ ________________________________________________________________________________
     outline: none;
     font-weight: 600;
     color: #8D8E8F;
-    padding: 2%, 1%, 2% 7%;
+    padding: 1%, 1%, 1% 1%;
     width: 80%;
     border-top: 1px solid #090B0D;
     border-right: 2px solid #424549;
     border-bottom: 2px solid #424549;
     border-left: 1px solid #090B0D;
-    margin: 10px 1em;
+    margin: 12px 1.5em;
     border-radius: 7px;
     background: #13161B;
     box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
@@ -421,7 +421,7 @@ MENU SECTION ANIMATION
 ----------------------------------------------------------------------------------------------*/
 .menu{
     color: #f00;
-    font: bold 12px/18px sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     display: inline;
     margin: 0% auto;
