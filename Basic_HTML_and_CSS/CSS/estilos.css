@@ -1,0 +1,246 @@
+.center{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 10%;
+}
+
+img {
+
+    filter: grayscale(100%);
+    border: 2px solid black;
+    border-radius: 25px;
+    
+} 
+
+footer{
+
+    text-align: center;
+    padding: 3px;
+    background-color: darksalmon;
+    color: white;
+}
+
+p {
+
+    font-weight: 900;
+}
+
+table, th, td {
+
+    border: 1px solid;
+}
+
+th, td {
+
+    padding: 30px;
+    text-align: left;
+}
+
+th {
+
+    background-color: #04AA6D;
+    color: white;
+}
+
+/*Container holding up the image and the text */
+
+.container{
+
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+/*Bottom left text*/
+
+.bottom-left {
+
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/*Top left text*/
+
+.Top-left {
+
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/*Bottom rigth text*/
+
+.bottom-right {
+
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/*Top rigth text*/
+
+.Top-right { 
+
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/*Centered text*/
+
+.centered {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*The navigation bar*/
+
+.navbar {
+
+    overflow: hidden;
+    background: yellow;
+    position: fixed;/*Set the navbar to a fixed position*/
+    top: 0;/*Position navbar at the top of the page*/
+    width: 100%; /*Full width*/
+}
+/* Links inside the navbar */
+.navbar a {
+
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Change background mouse-over */
+
+    .navbar a:hover{
+
+        background: #ddd;
+        color: blue;
+
+    }
+
+    /*Main content*/
+
+    .main {
+
+        margin-top: 30px; /*Add a top margin to avoid content overlay */ 
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .column {
+        float: left;
+        padding: 10px;
+        height: 300px;
+    }
+
+    .left {
+
+        width: 25%;
+        background-color: aqua;
+    }
+
+    .right {
+
+        width: 75%;
+        background-color: aquamarine;
+    }
+
+    /* Clear floats after column */
+
+    .row:after {
+
+        content:"";
+        display: table;
+        clear: both;
+    }
+
+    .column h1 {
+
+        color: #04AA6D;
+        background-color: gray;
+    }
+
+    .column p{
+
+        color: bisque;
+    }
+
+    p:hover {
+
+        color: blue;
+        background-color: yellow;
+    }
+
+.container {
+
+    position: relative;
+    width: 100%;
+}
+
+/*.image {
+
+    display: block;
+    width: 100%;
+    height: auto;
+}*/
+
+.video{
+
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.container:hover .overlay{
+
+    opacity: 1;
+}
+
+.text{
+
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+        color: blue;
+    }
+    
+}
