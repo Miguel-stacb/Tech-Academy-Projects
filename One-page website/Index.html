@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LUCY</title>
+		<meta charset="utf-8">
+		<link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/Lightbox.css">
+        <script src="./JS/one_page_website.js" defer></script>
+</head>
+
+<body>
+
+    		
+	<!--NAV-->
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#Menu-principal"><li>Menu principal</li></a>
+					<a href="#Servicios-y-productos"><li>Servicios y productos</li></a>
+					<a href="#Contacto"><li>Contacto</li></a>
+				</ul>
+			</div>
+		</div>
+	<!--END NAV-->
+	
+	<!-- MENU PRINCIPAL-->
+		<div id="Menu-principal">
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">BIENVENIDOS | LUCY </span>
+				</div >				
+				<p style="text-align: center;"><iframe src="./videos/Video.mp4" width="560" height="315" frameborder="0"allowfullscreen ></iframe></p>
+			</div>
+		</div>
+	<!--FIN MENU PRINCIPAL-->
+	
+	<!--SERVICIOS Y PRODUCTOS-->
+    <section id ="Servicios-y-productos">
+        <div class="container">
+            <h1>Servicios y productos</h1>
+                <div>
+
+                    <!-- Images used to open the lightbox -->
+                    <div class="row">
+                        <div class="column">
+                        <img src="./images/thumbs/thumb_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                        </div>
+                        <div class="column">
+                        <img src="./images/thumbs/thumb_2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                        </div>
+                        <div class="column">
+                        <img src="./images/thumbs/thumb_3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                        </div>
+                        <div class="column">
+                        <img src="./images/thumbs/thumb_4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                        </div>
+                        <div class="column">
+                        <img src="./images/thumbs/thumb_5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                        </div>
+                        <div class="column">
+                        <img src="./images/thumbs/thumb_6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                        </div>
+                        <div class="column">
+                        <img src="./images/thumbs/thumb_7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+                        </div>
+                        <div class="column">
+                        <img src="./images/thumbs/thumb_8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+                        </div>
+                        <div class="column">
+                        <img src="./images/thumbs/thumb_9.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+                        </div>
+                    </div>
+                
+                    <!-- The Modal/Lightbox -->
+                    <div id="myModal" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+                    
+                            <div class="mySlides">
+                                <div class="numbertext">1 / 9</div>
+                                <img src="./images/thumbs/img1_wide.jpg" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                                <div class="numbertext">2 / 9</div>
+                                <img src="./images/thumbs/img2_wide.jpg" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                                <div class="numbertext">3 / 9</div>
+                                <img src="./images/thumbs/img3_wide.jpg" style="width:100%">
+                            </div>
+                    
+                            <div class="mySlides">
+                                <div class="numbertext">4 / 9</div>
+                                <img src="./images/thumbs/img4_wide.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                                <div class="numbertext">5 / 9</div>
+                                <img src="./images/thumbs/img5_wide.jpg" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                                <div class="numbertext">6 / 9</div>
+                                <img src="./images/thumbs/img6_wide.jpg" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                                <div class="numbertext">7 / 9</div>
+                                <img src="./images/thumbs/img7_wide.jpg" style="width:100%">
+                            </div>
+                    
+                            <div class="mySlides">
+                                <div class="numbertext">8 / 9</div>
+                                <img src="./images/thumbs/img8_wide.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                                <div class="numbertext">9 / 9</div>
+                                <img src="./images/thumbs/img9_wide.jpg" style="width:100%">
+                            </div>
+    
+                            <!-- Next/previous controls -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                            <!-- Caption text -->
+                            <div class="caption-container">
+                                <p id="caption"></p>
+                            </div>
+        
+                            <!-- Thumbnail image controls -->
+                            <div class="column">
+                                <img class="demo" src="./images/thumbs/thumb_1.jpg" onclick="currentSlide(1)" alt="Fotocopias en alto volumen">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="./images/thumbs/thumb_2.jpg" onclick="currentSlide(2)" alt="Impresiones a color y blanco y negro">
+                            </div>  
+                            <div class="column">
+                                <img class="demo" src="./images/thumbs/thumb_3.jpg" onclick="currentSlide(3)" alt="Renta de computadoras por tiempo">
+                            </div>  
+                            <div class="column">
+                                <img class="demo" src="./images/thumbs/thumb_4.jpg" onclick="currentSlide(4)" alt="Recargas para tu celular">
+                            </div>
+                            <div class="column">
+                                <img class="demo" src="./images/thumbs/thumb_5.jpg" onclick="currentSlide(5)" alt="Tramites de CURP y Actas de nacimiento">
+                            </div>
+                            <div class="column">
+                                <img class="demo" src="./images/thumbs/thumb_6.jpg" onclick="currentSlide(6)" alt="Venta de utiles escolares">
+                            </div>  
+                            <div class="column">
+                                <img class="demo" src="./images/thumbs/thumb_7.jpg" onclick="currentSlide(7)" alt="Servicio de engargolado y enmicado">
+                            </div> 
+                            <div class="column">
+                                <img class="demo" src="./images/thumbs/thumb_8.jpg" onclick="currentSlide(8)" alt="Todo para tus trabajos escolares">
+                            </div>
+                            <div class="column">
+                                <img class="demo" src="./images/thumbs/thumb_9.jpg" onclick="currentSlide(9)" alt="Regalos">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+	<!--FIN DE SERVICIOS Y PRODUCTOS-->
+	
+	<!--FORMULARIO DE CONTACTO-->
+	
+	<section id="Contacto">
+		<div class="container">
+			<div class="heading-padding">
+				<h1 class="heading-padding"> Contacto</h1>
+					<div class="reservation">
+						<h2>
+							<span> Proporcione sus datos y reciba un descuento</span>
+							<br/>en su lista de utiles escolares!
+						</h2>
+						<p class="Contacto-text" style="text-align: center;">
+							Proporcione su informacion
+						</p>
+							<div class="form-Contacto">
+								<form action="" method="post">
+									<input class="Contacto" type="text" value="" placeholder="Nombre">
+									<input class="Contacto" type="text" value="" placeholder="Apellido">
+									<input class="Contacto" type="text" value="" placeholder="Correo electronico">
+									<input class="Contacto" type="text" value="" placeholder="Telefono">
+										<div class="form-spacer">
+											<label class="terms">Terminos y condiciones</label>
+										</div>
+										<div class="submit">
+											<input type="submit" value="Submit">
+										</div>
+								</form>
+							</div>
+					</div>
+			</div>
+		</div>
+	</section>
+	<!--FIN DE FORMULARIO DE CONTACTO-->
+	
+	<!--PIE DE PAGINA-->
+	
+		<div id="footer">
+			www.papelerialucy.com &nbsp; | &nbsp; &copy; 2024
+		</div>
+		
+	<!--FIN DE PIE DE PAGINA-->
+</body>
+    
+</html>
